@@ -24,7 +24,8 @@ Start writing integration specs with Capybara!
 
 Example file: `spec/integration/user_signs_in_spec.rb`
 
-`describe "User Signs In" do
+`
+describe "User Signs In" do
 
   context "As a guest on the sign in page"
 
@@ -64,5 +65,5 @@ Example file: `spec/integration/user_signs_in_spec.rb`
 
   end
 
-end`
-
+end
+`
