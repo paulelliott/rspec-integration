@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.email = ["paul@hashrocket.com"]
   s.description = "Adds a capybara integration test group to RSpec 2."
 
-  s.files = Dir.glob("{lib,spec}/**/*") + %w(README)
+  s.files = Dir.glob("{lib,spec}/**/*") + %w(README.markdown)
 
   s.homepage = "http://github.com/paulelliott/rspec-integration"
   s.require_paths = ["lib"]
