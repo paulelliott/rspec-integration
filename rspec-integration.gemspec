@@ -4,7 +4,7 @@ $:.unshift lib unless $:.include?(lib)
 
 Gem::Specification.new do |s|
   s.name = "rspec-integration"
-  s.version = "2.0.0.beta.18"
+  s.version = "2.0.0.beta.19"
 
   s.authors = ["Paul Elliott"]
   s.email = ["paul@hashrocket.com"]
@@ -17,6 +17,6 @@ Gem::Specification.new do |s|
   s.rubygems_version = "1.3.7"
   s.summary = "Adds capybara integration test group to RSpec 2."
 
-  s.add_dependency("rspec-rails", ">= 2.0.0.beta.18")
+  s.add_dependency("rspec-rails", ">= 2.0.0.beta.19")
   s.add_dependency("capybara", ">= 0.3.9")
 end
